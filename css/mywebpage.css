@@ -1,0 +1,273 @@
+/* fill viewport height*/
+body,
+html {
+	height: 100%;
+
+
+}
+body {
+	/*background-image: url(images/nature-forest.jpeg);
+	background-repeat: no-repeat;*/
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+.container {
+	position: relative;
+	height: 100vh;
+	background-image: url(images/nature-forest.jpeg);
+	background-size: cover;
+	width: 100%; 
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	
+
+}
+
+
+
+	
+
+h1 {
+	color: black;
+	font-size: 110px;
+	font-family: 'Poiret One', Courier;
+	margin-top: 5%;
+	text-align: center;
+	border-top: solid black 1px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 4%;
+
+	
+
+	
+}
+
+
+
+.links {
+	text-align: center;
+	font-family: 'Poiret One', Courier;
+	margin-top: 5%;
+
+
+
+}
+
+
+ .links a {
+ 	text-decoration: none;
+ 	color: black;
+ 	font-size: 30px;
+ 	padding-right: 40px;
+
+ }
+
+
+ a:hover {
+ 	color: white;
+ 	
+ }
+
+
+
+
+
+ 
+.me {
+	height: 800px;
+	padding-top: 30px;
+	background-color: #EDF0DF;
+
+
+}
+
+.text{
+	margin-left: 40%;
+	font-family: 'Poiret One';
+	font-size: 20px;
+	padding: 50px;
+
+}
+
+.picture {
+	float: left;
+	margin-left: 8%;
+}
+
+
+
+.photo {
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h2 {
+	color: black;
+	font-size: 90px;
+	font-family: 'Poiret One', Courier;
+	margin-top: 30px;
+	text-align: center;
+	border-top: solid black 1px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 3%;
+}
+
+
+
+p {
+	margin-top: 10px;
+}
+
+
+
+
+
+.work {
+	height: 670px;
+	padding-top: 30px;
+	background-color: white;
+	position: relative;
+	height: 100vh;
+
+}
+
+.round {
+	/*height: 200px; */
+	max-width: 100%;
+	height: auto;
+
+}
+
+
+
+
+.unicef {
+	float: left;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	padding: 30px;
+	margin: 26px;
+	text-align: center;
+	background-image: url(images/uniceflogo.jpeg);
+}
+
+.river {
+	float: left;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	padding: 30px;
+	margin: 26px;
+	text-align: center;
+	background-image: url(images/applogo.jpeg);
+	
+
+}
+
+.michelle{
+	float: right;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	padding: 30px;
+	margin: 26px;
+	text-align: center;
+	background-image: url(images/fikalogo.png)
+
+
+}
+
+.transdev {
+	float: right;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	padding: 30px;
+	margin: 26px;
+	text-align: center;
+	background-image: url(images/transdevlogojpeg);
+	
+
+}
+
+.next {
+	float: right;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	padding: 30px;
+	margin: 26px;
+	text-align: center;
+	border: solid black 2px;
+	font-family: 'Poiret One', Courier;
+	color: white;
+	background-color: #000;
+
+}
+
+
+
+.contact {
+	height: 100%;
+	width: 100%;
+	background-color: #ACAD9D;
+	padding-top: 30px;
+	float: left;
+	
+	
+
+}
+
+.one {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: 'Poiret One';
+	font-size: 20px;
+	text-align: 60%;
+	padding-bottom: 50px;
+	padding: 50px;
+}
+
+
+.mail a {
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+footer {
+	border-bottom: solid black 1px;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: relative;
+	margin-top: 12%;
+	margin-bottom: 10%;
+}
+
+@media screen and (min-width: 700px) {
+	html {
+		font-size: 24px;
+	}
+}
+
+
+  
