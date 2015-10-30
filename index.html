@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 		<title>ELIN SJöBLOM</title>
 
-			<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-			<link rel="stylesheet" type="text/css" href="myweb.css">
+			<link rel="stylesheet" type="text/css" href="css/myweb.css">
 
 			<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 			<meta name="viewport"
@@ -21,27 +21,33 @@
 			<h1>ELIN SJöBLOM</h1>
 
 					<nav>
-						<div class="links">
-						  	<a href="#me">ME</a>
-							<a href="#work">WORK</a>
-							<a href="#contact">CONTACT</a>
-						</div>
+						<div class="col-md-2"></div>
+							<div class="links col-md-8">
+							  	<a href="#me" class="menu-me">ME</a>
+								<a href="#work" class="menu-work">WORK</a>
+								<a href="#contact" class="menu-contact">CONTACT</a>
+							</div>
+						<div class="col-md-2"></div>
 					</nav>
 
-		</div>
+		</div>	
 	</div>
 
 	<div class="me" id="me"> 
 
 				<h2>ABOUT ME</h2>
 
-						<!--<img src="images/el.png" alt="my photo" class="photo"> -->
-						   <img src="images/el.png" style='width:30%;' border="0" alt="Null" class="photo">
+					<div class="col-md-1"></div>
 
-				<div class="text">Hi! I´m Elin, a creative from Sweden. Right now I´m studing Mobile Creative at Hyper Island in Stockholm. I dedecated to the creative process of the development in ideas. I´m developing my skills in design, programing and lederchip. My focus is the creative process where different mindset connects and  beautiful things are happening. 
+					<div class="col-md-4">
+
+						   <img src="images/el.png" border="0" alt="Null" class="photo">
+					</div>
+				<div class="text col-md-6">Hi! I´m Elin, a creative from Sweden. Right now I´m studing Mobile Creative at Hyper Island in Stockholm. I dedecated to the creative process of the development in ideas. I´m developing my skills in design, programing and lederchip. My focus is the creative process where different mindset connects and  beautiful things are happening. 
 				<p>I prefer to work with design in sketch and have skills in html and css. I just started to learn Javascript.</p> 
 					
 				</div>	
+				<div class="col-md-1"></div>
 	</div>
 
 
@@ -49,31 +55,48 @@
 	<div class="work" id="work">
 		<h2>WORK</h2>
 
-			<!--<div class="round">-->
+			<div class="row">
 
-				<a href="#"><div class="unicef">
-					<img src="images/uniceflogo.jpeg">
+				<div class="unicef col-md-3">
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+						  Launch demo modal
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+						      </div>
+						      <div class="modal-body">
+						        ...
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Save changes</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<a href="#"><img src="images/uniceflogo.jpeg"></a>
 							</div>
-				</a>
-
-				<a href="#"><div class="river">
-					<img src="images/applogo.jpeg">
+				
+				<div class="river col-md-3">
+					<img src="images/river_logo.png">
 							</div>
-				</a>
+				
 
-				<a href="#"><div class="michelle">
-					<img src="images/fikalogo.png">
+				<div class="transdev col-md-3">
+					<img src="images/transdev-logo.png">
 							</div>
-				</a>
-
-				<a href="#"><div class="transdev">
+				
+				<div class="donate col-md-3">
 					<img src="images/transdevlogo.jpeg">
 							</div>
-				</a>
-				<a href="#"><div class="next">..aldrig för länge!</div></a>
-				<a href="#"><div class="next">..väntar..</div></a>
-				<a href="#"><div class="next">..på nått gott..</div></a>
-				<a href="#"><div class="next">Den som väntar..</div></a>
 
 			</div>
 	</div>
@@ -87,16 +110,22 @@
 				
 					<p>Elin Sjöblom</p>
 
-					<p>phone +46 76 247 82 71</p>
+					<p class="phone">phone
+						<a href="tel:0762478271">+46762478271</a> 	
+					</p>
 
 					<div class="mail">
-						<a href="mail">mail elin.sjoblom(at)hyperisland.se</a>
+						mail
+						<a href="mailto:elin.sjoblom@hotmail.com">elin.sjoblom(at)hyperisland.se</a>
 					</div>
 				
 			</div>
 				<footer></footer>
 	</div>
-
-  <script src="parallax.js"></script>
+	<script src="parallax.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+ 
+  <script src="basic.js"></script>
  </body>
 </html>

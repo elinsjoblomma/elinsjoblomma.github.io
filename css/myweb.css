@@ -1,0 +1,256 @@
+/* fill viewport height*/
+body,
+html {
+	height: 100%;
+
+
+}
+
+/* set the base size*/
+
+html {
+ font-size: 18px;
+}
+
+
+body {
+	/*background-image: url(images/nature-forest.jpeg);
+	background-repeat: no-repeat;*/
+	padding: 0;
+	margin: 0;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.container {
+	position: relative;
+	height: 100vh;
+	background-image: url(../images/nature-forest.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%; 
+
+}
+
+
+.header {
+	
+
+}
+
+
+
+	
+
+h1 {
+	color: black;
+	font-size: 5rem;
+	font-family: 'Poiret One', Courier;
+	margin-top: 5%;
+	text-align: center;
+	/*border-top: solid black 1px;*/
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 4%;
+	width: calc(100%-20px);
+
+	
+
+	
+}
+
+
+
+.links {
+	text-align: center;
+	font-family: 'Poiret One', Courier;
+	margin-top: 5%;
+	font-size: 1.3rem;
+
+
+
+}
+
+
+ .links a {
+ 	text-decoration: none;
+ 	color: black;
+ 	padding-right: 40px;
+
+
+ }
+
+
+ .links a:hover {
+
+ 	text-decoration: underline;
+ 	color: #D8D8D8;
+    
+    
+    
+ 	
+ }
+
+
+
+
+
+ 
+.me {
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 30px;
+	/*background-color: #EDF0DF;*/
+
+
+}
+
+
+.text{
+	margin-top: 90px;
+	font-family: 'Poiret One';
+	font-size: 0.8rem;
+	
+	 
+
+
+}
+
+
+
+.photo {
+	width: 300px;
+	margin-top: 10%;
+	
+
+
+}
+
+h2 {
+	color: black;
+	font-size: 5rem;
+	font-family: 'Poiret One', Courier;
+	margin-top: 30px;
+	text-align: center;
+	border-top: solid black 1px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 3%;
+}
+
+
+
+p {
+	margin-top: 10px;
+}
+
+
+
+
+
+.work {	
+
+	min-height: 100vh;
+	padding-top: 30px;
+	background-color: white;
+	position: relative;
+	margin-right: 5%;
+	margin-left:5%;
+	
+}
+
+.row {
+	padding-top: 40px;
+}
+
+
+
+
+
+img {
+	padding: 30px;
+
+	
+
+}
+
+
+
+
+
+.contact {
+	min-height: 100vh;
+	width: 100%;
+	background-color: white;
+	padding-top: 30px;
+	float: left;
+	
+	
+
+}
+
+.one {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: 'Poiret One';
+	font-size: 20px;
+	text-align: 60%;
+	padding-bottom: 50px;
+	padding: 50px;
+}
+
+
+.mail a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.phone a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	border-bottom: solid black 1px;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: relative;
+	margin-top: 12%;
+	margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 991px) {
+	
+	.work .col-md-3{
+    width: 350px;
+    margin: 0 auto;
+	}
+
+	.donate {
+		width: 220px !important;
+	}
+}
+@media screen and (min-width: 700px) {
+html {
+ font-size: 24px;
+ }
+}
+/*
+h1 {
+ font-size: 2rem;
+}
+h2 {
+ font-size: 1.6rem;
+}
+p {
+ font-size: 1rem;
+}
+*/
+	
